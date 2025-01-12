@@ -1,9 +1,7 @@
 # # Using a for loop to print the statement five times
 # # print(f"\n\tSPACE HOLDER")     """"""
 # print(f"\n\tSPACE HOLDER") 
-# # print(f"\n\tSPACE HOLDER")     """"""
-# print(f"\n\tSPACE HOLDER") 
-
+import random
 
 def convert_to_phonetic(word):
     letters_to_words = {
@@ -14,7 +12,6 @@ def convert_to_phonetic(word):
         'u': 'Uniform', 'v': 'Victor', 'w': 'Whiskey', 'x': 'X-ray',
         'y': 'Yankee', 'z': 'Zulu',
     }
-import random
 
 for _ in range(5):
     print(f"\n\tSPACE HOLDER")
